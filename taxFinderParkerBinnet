@@ -1,0 +1,16 @@
+func main() {
+    var purchasePrice = 95.00
+    let stateTax = 6.5 / 100
+    let countyTax = 2.0 / 100
+    let totalTax = (stateTax * purchasePrice) + (countyTax * purchasePrice)
+    
+    print("Purchase price: $")
+    print(purchasePrice)
+    purchasePrice += (purchasePrice * totalTax)
+    print("Final price: $")
+    print(purchasePrice)
+    
+
+}
+
+main()
