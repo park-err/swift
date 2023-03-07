@@ -5,7 +5,7 @@ func fibSeq(previousNum: Int, numBeforePrev: Int) -> Int {
 
 func main() {
     var seq = [0, 1]
-    let LENGTH = 20
+    let LENGTH = 17
     var i = 2
     
     while (i < LENGTH) {
